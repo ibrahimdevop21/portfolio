@@ -3,6 +3,7 @@ $secondary-color: #eece1a;
 $show-home-image: true;
 $home-image: url(/img/night-artwork-futuristic-city-cyberpunk-wallpaper-d8068de8d0006ce8201cc1ce98f2840a.jpg);
 $background-opacity: 0.9;
+$portrait-img: url(/img/smalImg.png);
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
