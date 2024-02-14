@@ -1,10 +1,12 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "resonsive portfolio website",
+  "description": "resonsive portfolio website",
+  "main": "index.js",
+  "homepage": "https://ibrahimdevop21.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "Ibrahim",
@@ -13,6 +15,7 @@
   "author": "Ibrahim Mohamed",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "node-sass": "^9.0.0"
   }
 }
